@@ -1,0 +1,24 @@
+.main-demo{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height:auto;
+    width: auto;
+    background-color: aqua;
+}
+.parent-img{
+    height: 150px;
+    width: 250px;
+}
+.child{
+    background-color: brown;
+    display: none;
+}
+.parent:hover .child{
+    display: block;
+}

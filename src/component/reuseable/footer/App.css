@@ -1,0 +1,30 @@
+.btn-link{
+    margin: 0 !important;
+}
+footer{
+    margin-top: 100px;
+    background-color: #f7f8f8;
+}
+.list-unstyled a{
+    font-size: small;
+    text-decoration: none;
+    color: rgb(160, 160, 160) !important;
+}
+.list-unstyled a:hover{
+color:#002f34 !important;
+}
+.text-uppercase{
+    font-size: small !important;
+    font-weight: bold !important;
+}
+.appStore{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.appStore img{
+    /* height: 50px; */
+    width: 100px;
+}

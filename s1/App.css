@@ -1,0 +1,298 @@
+/* .App { */
+/* text-align: center; */
+/* } */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header { */
+/* background-color: #ffffff !important;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; */
+/* align-items: center; */
+/* justify-content: center; */
+/* font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  transition: 2s; */
+
+/* } */
+/* 
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.dark{
+  background: hsla(225, 100%, 9%, 1);
+
+background: linear-gradient(45deg, hsla(225, 100%, 9%, 1) 19%, hsla(257, 97%, 14%, 1) 41%, hsla(237, 100%, 16%, 1) 50%, hsla(267, 100%, 12%, 1) 61%, hsla(0, 0%, 0%, 1) 83%);
+
+background: -moz-linear-gradient(45deg, hsla(225, 100%, 9%, 1) 19%, hsla(257, 97%, 14%, 1) 41%, hsla(237, 100%, 16%, 1) 50%, hsla(267, 100%, 12%, 1) 61%, hsla(0, 0%, 0%, 1) 83%);
+
+background: -webkit-linear-gradient(45deg, hsla(225, 100%, 9%, 1) 19%, hsla(257, 97%, 14%, 1) 41%, hsla(237, 100%, 16%, 1) 50%, hsla(267, 100%, 12%, 1) 61%, hsla(0, 0%, 0%, 1) 83%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000C2F", endColorstr="#140144", GradientType=1 );
+transition: 2s;
+}
+
+.lite{
+  background: hsla(0, 0%, 100%, 1);
+  
+  background: linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(81, 75%, 60%, 1) 33%, hsla(153, 53%, 44%, 1) 66%, hsla(167, 53%, 24%, 1) 86%);
+  
+  background: -moz-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(81, 75%, 60%, 1) 33%, hsla(153, 53%, 44%, 1) 66%, hsla(167, 53%, 24%, 1) 86%);
+  
+  background: -webkit-linear-gradient(45deg, hsla(0, 0%, 100%, 1) 0%, hsla(81, 75%, 60%, 1) 33%, hsla(153, 53%, 44%, 1) 66%, hsla(167, 53%, 24%, 1) 86%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#B0E64C", GradientType=1 );
+  transition: 2s;
+}
+.white{
+  background-color: rgb(255, 248, 248);
+
+}
+.dark-item{
+  
+  background-color: rgb(28, 28, 107) !important;
+  color: white;
+  text-decoration: none;
+  transition: 2s;
+
+}
+.dark-item1{
+  
+  background-color: #073cc2 !important;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  text-decoration: none;
+  transition: 2s;
+
+}
+.lite-item{
+  
+  background-color:#ffffff !important;
+  text-decoration: none;
+  color: #306ee2 !important;
+  transition: 2s;
+  
+  /* font-size: 25px; */
+
+/* } */
+/* .white-item{
+  color: black;
+  background-color: rgb(211, 211, 255);
+  text-decoration: none; */
+/* font-size: 25px; */
+
+/* } */
+/* .lite-item2{ */
+
+/* box-shadow: 10px 10px 10px black !important; */
+/* background-color: rgb(241, 248, 252) !important;
+  color: #306ee2 !important;
+  transition: 2s;
+
+  font-size: 25px;
+  text-decoration: none;
+} */
+/* .board{
+  border-radius: 10px; */
+/* font-size: larger; */
+/* }
+.App {
+  text-align: center;
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* .App-header {
+ 
+  min-height: 100vh;
+  width: 100%;
+  display: flex; */
+/* flex-direction: column; */
+/* align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+} */
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.black{
+  background-color: rgb(36, 36, 36) !important;
+  color: white !important;
+}
+.white{
+  background-color: whit !important;
+  color: black !important;
+}
+.box { */
+/* min-height: 80vh; */
+/* width: 40%; */
+/* min-width: 90%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+.box-header {
+  height: 20%;
+  width: 100%;
+  padding-top: 10px; */
+/* background-color: antiquewhite; */
+/* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(158, 158, 158);
+  flex-direction: row;
+}
+
+.box-header_title {
+  padding: 20px;
+}
+
+.box-header_title h3 {
+  font-weight: 400;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+
+}
+
+.box-header_time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: #b7eaf8;
+  padding: 0 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+
+.box-header_time-icon { */
+/* padding: 10px 10px; */
+/* margin-right: 5px;
+  color: #285ef3;
+}
+
+.box-header_time-text { */
+/* padding: 3px; */
+/* color: #3568f5;
+
+  margin-top: 12px;
+  text-align: center;
+}
+
+.box-quiestion {
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.box-quiestion h3 {
+  font-size: larger;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.sellect-answer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+/* align-items: center; */
+/* } */
+/* 
+.box-select {
+  width: 95%;
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.box-select p {
+  padding-left: 20px; */
+/* margin-top: 5px; */
+/* padding-top: 10px; */
+/* } */
+/* 
+.box-select a {
+  text-decoration: none;
+  color: black;
+}
+
+.box-select:hover {
+  background-color: #4bb6da;
+}
+
+.box-select:active {
+  background-color: #0783f7;
+} */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-image: linear-gradient(rgb(50, 114, 252), skyblue, rgb(147, 248, 147), rgb(255, 203, 105), rgb(247, 151, 247));
+}
+
+.img-div {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}

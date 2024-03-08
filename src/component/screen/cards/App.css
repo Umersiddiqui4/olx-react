@@ -1,0 +1,42 @@
+.cards{
+    margin-top: 50px;
+}
+.card{
+    /* margin: 10px; */
+   width: 19.5rem !important;
+    margin-bottom: 30px;
+    padding: 0px !important;
+    /* padding: 10px !important; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px 3px rgb(237, 237, 237) ;
+}
+.card-img-top{
+    height: 200px !important;
+    /* width:fit-content ; */
+    object-fit: cover;
+    overflow: hidden;
+    transition: 1s;
+
+}
+.card img:hover{
+transform:scale(1.1) ;
+}
+.titleDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.fa-heart{
+    margin-left: 150px;
+}
+.card-subtitle{
+    height: 60px;
+    overflow-y: hidden;
+
+}

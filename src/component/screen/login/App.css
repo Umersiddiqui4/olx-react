@@ -1,0 +1,102 @@
+.signIn{
+    height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ 
+ }
+ .signIn-form {
+     height: 500px !important;
+     border: 1px solid rgba(0, 0, 0, 0.169);
+     max-width: 500px !important;
+     border-radius: 10px;
+     padding: 40px;
+     width: 100%; /* Add this line to ensure the width increases */
+ }
+ 
+ .form-logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding-top: 10px;
+ }
+ .title{
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+     height: 30px;
+     width: 100%;
+     font-size: x-large;
+     margin-top: 20px;
+ }
+ .subTitle{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 10px;
+     width: 100%;
+     font-size: larger;
+     margin-bottom: 30px;
+ }
+ 
+ .form-control{
+     border: 1px solid rgba(0, 0, 0, 0.241) !important;
+     font-size:large !important;
+ }
+ .form-control:focus{
+     border: 2px solid #1a73e8 !important;
+     /* font-size:large !important; */
+ }
+ /* .form-outline .form-control.form-control-lg:focus~.form-label {
+     background-color: white !important;
+ } */
+ .form-outline .form-control.form-control-lg:visited~.form-label {
+    background-color: rgb(237, 11, 11) !important;
+}
+ .form-label{
+     font-size:large !important;
+ }
+ .form-outline.filled .form-label {
+    transform: translateY(-120%);
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.form-outline.filled .form-control {
+    padding-top: 1.5rem; /* Adjust padding to make room for the label */
+}
+
+ .nextBtn{
+     width: 100%;
+ display: flex;
+ justify-content: space-between;
+ }
+ .nextBtn button{
+     padding: 8px 25px;
+     border-radius: 2px !important;
+     font-size: small;
+ }
+
+ .already{
+     background-color: transparent !important;
+     color: #1a73e8 !important;
+     border: none;
+     box-shadow: none;
+     font-weight: 600 !important;
+     padding: none;
+ }
+ .already:focus{
+     background-color: transparent !important;
+     color: #1a73e8 !important;
+     border: 1px solid #1a73e8;
+     box-shadow: none;
+ }
+ .DOB{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }

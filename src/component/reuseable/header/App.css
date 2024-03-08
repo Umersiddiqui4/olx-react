@@ -1,0 +1,237 @@
+header{
+    position: fixed;
+   width: 100%;
+   z-index: 999;
+   top: 0%;
+   /* margin-top: ; */
+}
+.header-logo_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   width: 100%;
+    height: 50px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    background-color: #f7f8f8;
+}
+.logo{
+    margin-left: 10px;
+}
+.logo img{
+    width: 30px;
+}
+
+.header-space{
+    width: 70%;
+}
+.header-input_section{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    /* min-width: 400px; */
+    height: 70px;
+    /* padding-top: 3px; */
+    /* padding-bottom: 0px; */
+    background-color: #f7f8f8;
+}
+.input-logo{
+    margin: 30px;
+}
+.input-logo_img{
+    height: 40px;
+}
+.input-dropdown{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #002f34;
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.drop-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+.drop-input .dropinput{
+    border: none !important;
+    outline: none !important;
+    font-size: large !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+}
+.drop-input input:focus{
+  box-shadow: none;
+
+}
+.drop-showMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30px;
+
+}
+.drop-showMore img{
+width: 15px;
+}
+.input-inputFeild{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+max-width: 650px;
+min-width: 100px;
+    border: 2px solid #002f34;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.input-inputFeild .formInput{
+    border: none !important;
+    outline: none !important;
+    font-size: large !important;
+    font-weight: 600 !important;
+}
+.inputFeild-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002f34;
+    height: 100%;
+    width: 50px;
+    
+}
+.inputFeild-icon svg{
+    color: white;
+    /* background-color: white; */
+
+}
+.input-login{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin: 30px;
+    transition: 2s;
+}
+.input-login a{
+    color: #002f34;
+    font-weight: 600;
+}
+.input-login a:hover{
+    text-decoration: none;
+}
+.sell-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 20px;
+    width: 40px;
+    margin: 40px;
+}
+.sell-btn_pic{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 900px) {
+    .header-space{width: auto;}
+}
+@media screen and (max-width: 650px) {
+    .input-dropdown{
+        display: none;
+    }
+    .input-login {
+        display: none;
+    }
+    .sell-btn{
+        display: none;
+    }
+    .input-logo{
+        display: none;
+    }
+    
+    
+}
+.logout-section{
+   
+    background-color: rgb(247,248,248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    top: 110px;
+    right: 150px;
+    border-radius: 6px;
+    display: none;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
+}
+.logout-section:active{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.233);
+  }
+ .input-login:hover .logout-section{
+        display: block;
+      }
+
+
+
+      .header-profile_img{
+        height: 50px;
+        width: 50px;
+        background-color: #002f34;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .header-img{
+        height: 100%;
+        width: 100%;
+      }
+      .logout-sec_profile{
+        height: auto;
+        width: auto;
+        /* display: flex;
+        justify-content: center; */
+      }
+      .sec-prof-img{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .prof-sec-data{
+        display: flex;
+        justify-content: start;
+        text-align: start;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+      }
+      .prof-sec-data p{
+        font-size: large;
+        height: auto;
+        margin: 0;
+      }
+      .prof-sec-data p a{
+        font-size: medium;
+        height: auto;
+        margin: 0;
+      }
+      .sec-prof-main{
+        display: flex;
+      }

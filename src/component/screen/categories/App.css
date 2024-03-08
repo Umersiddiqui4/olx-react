@@ -1,0 +1,25 @@
+.categorie{
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 24px !important;
+    font-weight: 700;
+}
+
+
+.col{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    text-align: center;
+}
+.col h5{
+    margin: 10px;
+}
+@media screen and (max-width: 850px) {
+.categorie{margin-top: 150px;}
+  }
